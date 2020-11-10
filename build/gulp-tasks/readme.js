@@ -40,7 +40,7 @@ module.exports = function readme (cb) {
        'startYear': 2010,
        'currentYear': new Date().getFullYear()
      }))
-    .pipe(rename("../Readme.md"))
+    .pipe(rename("../.github/README.md"))
     .pipe(dest('build/'));
 
 };

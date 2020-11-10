@@ -1,17 +1,34 @@
 {
-  "name": "faker",
+  "name": "phaker",
   "main": "./build/build/faker.js",
-  "homepage": "https://github.com/Marak/faker.js",
-  "authors": [
-    "Marak Squires <marak.squires@gmail.com>"
+  "homepage": "https://github.com/tripu/faker.js",
+  "author": {
+    "name": "tripu",
+    "email": "t@tripu.info",
+    "url": "https://tripu.info/"
+  },
+  "contributors": [
+    {
+      "name": "tripu",
+      "email": "t@tripu.info",
+      "url": "https://tripu.info/"
+    },
+    {
+      "name": "Marak Squires",
+      "email": "marak.squires@gmail.com",
+      "url": "https://marak.com/"
+    }
   ],
   "description": "Generate massive amounts of fake contextual data",
   "keywords": [
     "faker",
+    "phaker",
     "fake",
-    "dummy",
-    "identity",
-    "test"
+    "mock",
+    "stub",
+    "false",
+    "data",
+    "dummy"
   ],
   "license": "MIT",
   "ignore": [
