@@ -111,8 +111,8 @@ console.log(firstRandom === secondRandom);
 ## Tests
 
 ```shell
-npm install .
-make test
+npm i
+npm t
 ```
 
 You can view a code coverage report generated in coverage/lcov-report/index.html.
