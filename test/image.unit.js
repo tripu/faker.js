@@ -7,7 +7,7 @@ if (typeof module !== 'undefined') {
 describe("image.js", function () {
     describe("lorempicsum", function() {
         describe("imageUrl()", function () {
-            it("returns a random image url from lorempixel", function () {
+            it("returns a random image url from lorempicsum", function () {
                 var imageUrl = faker.image.lorempicsum.imageUrl();
     
                 assert.equal(imageUrl, 'https://picsum.photos/640/480');
@@ -243,6 +243,14 @@ describe("image.js", function () {
               assert.equal(transport, 'https://source.unsplash.com/category/buildings/640x480');
           });
       });
+    });
+    describe("thispersondoesnotexist", function() {
+        describe("imageUrl()", function () {
+            it("returns a random image url from thispersondoesnotexist", function () {
+                var imageUrl = faker.image.thispersondoesnotexist.imageUrl();
+                assert.equal(imageUrl, 'https://www.thispersondoesnotexist.com/image');
+            });
+        });
     });
     describe("dataUri", function () {
         it("returns a blank data", function () {
