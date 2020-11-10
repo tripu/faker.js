@@ -1,7 +1,7 @@
 {
   "name": "phaker",
   "description": "Generate massive amounts of fake contextual data",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "keywords": [
     "faker",
     "phaker",
@@ -39,7 +39,9 @@
     "readme": "gulp readme",
     "lint": "jshint ./lib --config ./.jshintrc",
     "test": "mocha test/*.*.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "prepack": "cp .github/* .",
+    "postpack": "rm README.md CONTRIBUTING.md"
   },
   "nyc": {
     "all": false,
@@ -91,8 +93,5 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "files": [
-    ".github/**"
-  ],
   "dependencies": {}
 }

@@ -7,10 +7,6 @@
 [![OpenCollective](https://opencollective.com/fakerjs/backers/badge.svg)](#backers)
 [![OpenCollective](https://opencollective.com/fakerjs/sponsors/badge.svg)](#sponsors)
 
-## Demo
-
-[https://rawgit.com/tripu/faker.js/master/examples/browser/index.html](https://rawgit.com/tripu/faker.js/master/examples/browser/index.html)
-
 ## Usage
 
 ### Browser
